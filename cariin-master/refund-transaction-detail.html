@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="endless admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities."
+    />
+    <meta
+      name="keywords"
+      content="admin template, endless admin template, dashboard template, flat admin template, responsive admin template, web app"
+    />
+    <meta name="author" content="pixelstrap" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Cariin - Dashboard</title>
+    <!-- Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <!-- ico-font-->
+    <link rel="stylesheet" href="assets/css/icofont.css" />
+    <!-- Themify icon-->
+    <link rel="stylesheet" href="assets/css/themify.css" />
+    <!-- Flag icon-->
+    <link rel="stylesheet" href="assets/css/flag-icon.css" />
+    <!-- Feather icon-->
+    <link rel="stylesheet" href="assets/css/feather-icon.css" />
+    <!-- Plugins css start-->
+    <link rel="stylesheet" href="assets/css/chartist.css" />
+    <link rel="stylesheet" href="assets/css/prism.css" />
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- App css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/project.css" />
+    <link
+      id="color"
+      rel="stylesheet"
+      href="assets/css/light-1.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/datatables.css"
+    />
+    <link rel="stylesheet" href="assets/css/color-btn.css" />
+    <!-- Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+      <div class="loader bg-white">
+        <div class="whirly-loader"></div>
+      </div>
+    </div>
+    <!-- Loader ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper">
+      <!-- Page Header Start-->
+      <div class="page-main-header">
+        <div class="main-header-right row">
+          <div class="main-header-left d-lg-none">
+            <div class="logo-wrapper">
+              <a href="index.html"
+                ><img src="assets/images/endless-logo.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="mobile-sidebar d-block">
+            <div class="media-body text-right switch-sm">
+              <label class="switch"
+                ><a href="#"
+                  ><i id="sidebar-toggle" data-feather="align-left"></i></a
+              ></label>
+            </div>
+          </div>
+          <div class="nav-right col p-0">
+            <ul class="nav-menus">
+              <li class="onhover-dropdown">
+                <i data-feather="bell"></i><span class="dot"></span>
+                <ul class="notification-dropdown onhover-show-div">
+                  <li>
+                    Notification
+                    <span class="badge badge-pill badge-primary pull-right"
+                      >3</span
+                    >
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-body">
+                        <h6 class="mt-0">
+                          <span
+                            ><i
+                              class="shopping-color"
+                              data-feather="shopping-bag"
+                            ></i></span
+                          >Your order ready for Ship..!<small class="pull-right"
+                            >9:00 AM</small
+                          >
+                        </h6>
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet, consectetuer.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-body">
+                        <h6 class="mt-0 txt-success">
+                          <span
+                            ><i
+                              class="download-color font-success"
+                              data-feather="download"
+                            ></i></span
+                          >Download Complete<small class="pull-right"
+                            >2:30 PM</small
+                          >
+                        </h6>
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet, consectetuer.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-body">
+                        <h6 class="mt-0 txt-danger">
+                          <span
+                            ><i
+                              class="alert-color font-danger"
+                              data-feather="alert-circle"
+                            ></i></span
+                          >250 MB trash files<small class="pull-right"
+                            >5:00 PM</small
+                          >
+                        </h6>
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet, consectetuer.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="bg-light txt-dark">
+                    <a href="#">All</a> notification
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-lg-none mobile-toggle pull-right">
+              <i data-feather="more-horizontal"></i>
+            </div>
+          </div>
+          <script id="result-template" type="text/x-handlebars-template">
+            <div class="ProfileCard u-cf">
+              <div class="ProfileCard-avatar">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-airplay m-0"
+                >
+                  <path
+                    d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"
+                  ></path>
+                  <polygon points="12 15 17 21 7 21 12 15"></polygon>
+                </svg>
+              </div>
+              <div class="ProfileCard-details">
+                <div class="ProfileCard-realName">
+                  {{name}}
+                </div>
+              </div>
+            </div>
+          </script>
+          <script id="empty-template" type="text/x-handlebars-template">
+            <div class="EmptyMessage">
+              Your search turned up 0 results. This most likely means the backend is down, yikes!
+            </div>
+          </script>
+        </div>
+      </div>
+      <!-- Page Header Ends                              -->
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page Sidebar Start-->
+        <div class="page-sidebar">
+          <div class="main-header-left d-none d-lg-block">
+            <div class="logo-wrapper justify-content-center">
+              <a href="index.html"
+                ><img src="assets/media/icon-cariin.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="sidebar custom-scrollbar">
+            <ul class="sidebar-menu">
+              <li>
+                <a class="sidebar-header" href="dashboard.html"
+                  ><img
+                    src="assets/media/icon-dashboard.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Dashboard</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="enable-disable-service.html"
+                  ><img
+                    src="assets/media/icon-service.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Enable & Disable Service</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="api-balance-setting.html"
+                  ><img
+                    src="assets/media/icon-setting.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>API Balance & Setting</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="partner-listing-deposit.html"
+                  ><img
+                    src="assets/media/icon-deposit.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Partner Listing & Deposit</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="transaksi.html"
+                  ><img
+                    src="assets/media/icon-transaksi.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Transaksi</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="refund-transaction.html"
+                  ><img
+                    src="assets/media/icon-refund-active.png"
+                    alt=""
+                    class="mr-3"
+                  /><span class="link-active">Refund Transaction</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="produk-komisi.html"
+                  ><img
+                    src="assets/media/icon-komisi.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Produk & Komisi</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="promo.html"
+                  ><img
+                    src="assets/media/icon-promosi.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Promo</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="user-administrator.html"
+                  ><img
+                    src="assets/media/icon-user.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>User Administrator</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="user-listing.html"
+                  ><img
+                    src="assets/media/icon-admin.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>User Listing</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="service-on-demand.html"
+                  ><img
+                    src="assets/media/icon-demand.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Service on Demand</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="map-view.html"
+                  ><img
+                    src="assets/media/icon-map.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Map View</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="push-notification.html"
+                  ><img
+                    src="assets/media/icon-notif.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Push Notification</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="store-setting.html"
+                  ><img
+                    src="assets/media/icon-store.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Store Setting</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="setup.html"
+                  ><img
+                    src="assets/media/icon-setup.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Setup</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <div class="px-4">
+            <div class="d-flex align-items-center pt-4">
+              <img
+                src="assets/media/icon-refund-active.png"
+                alt=""
+                class="mr-3"
+              />
+              <p class="logo-title">Refund / Detail Transaction</p>
+            </div>
+            <h3 class="mt-3 mb-2 title">Detail Transaction</h3>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="dashboard-card">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="chart-widget-dashboard">
+                        <div class="media">
+                          <div class="media-body">
+                            <div class="row align-items-center">
+                              <div class="col-2">
+                                <div class="border-profile-edit">
+                                  <img
+                                    src="assets/media/img-profile.png"
+                                    alt=""
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-8">
+                                <div
+                                  class="d-flex flex-column justify-content-around"
+                                >
+                                  <h5 class="mb-2">Farel Elsarawi</h5>
+                                  <div class="row">
+                                    <div class="col-5">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="assets/media/icon-mail.png"
+                                          alt=""
+                                          class="mr-2"
+                                        />
+                                        <p>021938012938</p>
+                                      </div>
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="assets/media/icon-phone.png"
+                                          alt=""
+                                          class="mr-2"
+                                        />
+                                        <p>farel@gmail.com</p>
+                                      </div>
+                                    </div>
+                                    <div class="col-7">
+                                      <div class="d-flex align-items-center">
+                                        <img
+                                          src="assets/media/icon-location.png"
+                                          alt=""
+                                          class="mr-2"
+                                        />
+                                        <p>Jalan Sukamjaya, Depok</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-2">
+                                <p>ID : U001</p>
+                              </div>
+                            </div>
+                            <hr class="mb-4" />
+                            <div class="row mb-4">
+                              <div class="col-12">
+                                <h5>Info Transaksi</h5>
+                              </div>
+                            </div>
+                            <div class="row mb-4">
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Sever</p>
+                                  <p class="text-bold">Rajabiller</p>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Date Transaction</p>
+                                  <p class="text-bold">08/12/2020</p>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Jenis Transaksi</p>
+                                  <p class="text-bold">Pesawat</p>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Product ID</p>
+                                  <p class="text-bold">TPQZ</p>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Nama Produk</p>
+                                  <p class="text-bold">AIRASIA</p>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Refund/Reschedule</p>
+                                  <p class="text-bold">Refund</p>
+                                </div>
+                              </div>
+                              <div class="col-3 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Tanggal Refund</p>
+                                  <p class="text-bold">10/12/2020</p>
+                                </div>
+                              </div>
+                            </div>
+                            <hr class="mb-4" />
+                            <div class="row mb-4">
+                              <div class="col-6">
+                                <h5 class="mb-3">Passanger Info</h5>
+                                <p class="mb-3">Passanger Name</p>
+                                <p class="text-bold mb-3">• Emil Insan Kamil</p>
+                                <p class="mb-3">emil@gmail.com</p>
+                                <p class="mb-3">082183192839128</p>
+                                <p class="mb-3">
+                                  Jl. Keadilan Raya No.13B, Bakti Jaya, Kec.
+                                  Sukmajaya, Kota Depok, Jawa Barat
+                                </p>
+                              </div>
+                            </div>
+                            <hr class="mb-4" />
+                            <div class="row">
+                              <div class="col-12">
+                                <h5 class="mb-3">Alasan Refund</h5>
+                                <p>Kematian keluarga atau kerabat</p>
+                              </div>
+                            </div>
+                            <div class="row mt-5">
+                              <div class="col-12">
+                                <div class="d-flex justify-content-end">
+                                  <button class="btn btn-danger mr-3">
+                                    Tolak
+                                  </button>
+                                  <button
+                                    type="button"
+                                    class="btn btn-success"
+                                    data-toggle="modal"
+                                    data-target="#modalSuccess"
+                                  >
+                                    Terima
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="dashboard-card">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="chart-widget-dashboard">
+                        <div class="media">
+                          <div class="media-body">
+                            <div class="row mb-4">
+                              <div class="col-12">
+                                <h5>Tiket Info</h5>
+                              </div>
+                            </div>
+                            <div class="row mb-4">
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Kursi</p>
+                                  <p class="text-bold">EKS1 - 12A</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Payment Code</p>
+                                  <p class="text-bold">AKD12931029</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Tujuan</p>
+                                  <p class="text-bold">BDG (Bandung)</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Keberangkatan</p>
+                                  <p class="text-bold">GMR (Gambir)</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Kode Booking</p>
+                                  <p class="text-bold">239480239</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Tanggal Keberangkatan</p>
+                                  <p class="text-bold">02/03/2021</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Jumlah Penumpang</p>
+                                  <p class="text-bold">2</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Harga TIket</p>
+                                  <p class="text-bold text-warning">
+                                    Rp 1.250.000
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Total Harga TIket</p>
+                                  <p class="text-bold text-warning">
+                                    Rp 2.500.00
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dashboard-card">
+                  <div class="card w-100">
+                    <div class="card-body">
+                      <div class="chart-widget-dashboard">
+                        <div class="media">
+                          <div class="media-body">
+                            <div class="row mb-4">
+                              <div class="col-12">
+                                <h5>Payment Info</h5>
+                              </div>
+                            </div>
+                            <div class="row mb-4">
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">No Rekening</p>
+                                  <p class="text-bold">1293102312139</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Nama Bank</p>
+                                  <p class="text-bold">BCA</p>
+                                </div>
+                              </div>
+                              <div class="col-4 mb-4">
+                                <div class="field">
+                                  <p class="mb-3">Atas Nama</p>
+                                  <p class="text-bold">Rakhmat Fadhillah</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalLowongan"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Farel Elsarawi</h5>
+                  <div class="row">
+                    <div class="col-7">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-building.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>PT Omind Muda Berkarya Indonesia</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>Jalan Sukamjaya, Depok</p>
+                      </div>
+                    </div>
+                    <div class="col-5">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>farel@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <p>ID : U001</p>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="card-total">
+                  <h5 class="text-primary">2</h5>
+                  <h6 class="text-primary">Total Pelamar</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card-diterima">
+                  <h5 class="text-success">2</h5>
+                  <h6 class="text-success">Pelamar diterima</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card-ditolak">
+                  <h5 class="text-danger">4</h5>
+                  <h6 class="text-danger">Pelamar ditolak</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">ID</h5>
+                  <h6 class="text-bold">0001</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Tanggal Lowongan</h5>
+                  <h6 class="text-bold">01/07/2020</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Nama Lowongan</h5>
+                  <h6 class="text-bold">UX Researcher</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Jenis Lowongan</h5>
+                  <h6 class="text-bold">Fulltime</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Nilai Pekerjaan</h5>
+                  <h6 class="text-bold text-success">Rp 6.000.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Pembayaran</h5>
+                  <h6 class="text-bold">Per Bulan</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Alamat</h5>
+                  <h6 class="text-bold">Jalan Sukamjaya, Depok, Jawa Barat</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Kota</h5>
+                  <h6 class="text-bold">Depok</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Maps Lokasi</h5>
+                  <h6 class="text-bold">-12.21309, 2137912</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Tanggal Publish</h5>
+                  <h6 class="text-bold">01/07/2020</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Tanggal Limit</h5>
+                  <h6 class="text-bold">25/07/2020</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Jangaka Waktu</h5>
+                  <h6 class="text-bold">25 Hari</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalSuccess"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body mb50">
+            <div class="border-popup-trash">
+              <img src="assets/media/icon-popup-success.png" alt="" />
+            </div>
+            <h4 class="text-center my-4">
+              Apakah anda yakin ingin menyetujui refund dari
+              <span class="text-primary">Rakhmat Fadhillah</span>?
+            </h4>
+          </div>
+          <div class="modal-footer">
+            <a class="text-primary pointer mr-5" data-dismiss="modal">
+              Batal
+            </a>
+            <button type="button" class="btn btn-success">Ya</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- latest jquery-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
+    <script src="assets/js/datatable/datatables/datatable.custom.js"></script>
+    <script src="assets/js/chart/chartist/chartist.js"></script>
+    <script src="assets/js/chart/knob/knob.min.js"></script>
+    <script src="assets/js/chart/knob/knob-chart.js"></script>
+    <script src="assets/js/prism/prism.min.js"></script>
+    <script src="assets/js/clipboard/clipboard.min.js"></script>
+    <script src="assets/js/counter/jquery.waypoints.min.js"></script>
+    <script src="assets/js/counter/jquery.counterup.min.js"></script>
+    <script src="assets/js/counter/counter-custom.js"></script>
+    <script src="assets/js/custom-card/custom-card.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/dashboard/default.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+    <script src="assets/js/typeahead/handlebars.js"></script>
+    <script src="assets/js/typeahead/typeahead.bundle.js"></script>
+    <script src="assets/js/typeahead/typeahead.custom.js"></script>
+    <script src="assets/js/chat-menu.js"></script>
+    <script src="assets/js/height-equal.js"></script>
+    <script src="assets/js/tooltip-init.js"></script>
+    <script src="assets/js/typeahead-search/handlebars.js"></script>
+    <script src="assets/js/typeahead-search/typeahead-custom.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/theme-customizer/customizer.js"></script>
+    <!-- Plugin used-->
+  </body>
+</html>

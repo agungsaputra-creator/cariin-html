@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="endless admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities."
+    />
+    <meta
+      name="keywords"
+      content="admin template, endless admin template, dashboard template, flat admin template, responsive admin template, web app"
+    />
+    <meta name="author" content="pixelstrap" />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Cariin - Dashboard</title>
+    <!-- Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <!-- ico-font-->
+    <link rel="stylesheet" href="assets/css/icofont.css" />
+    <!-- Themify icon-->
+    <link rel="stylesheet" href="assets/css/themify.css" />
+    <!-- Flag icon-->
+    <link rel="stylesheet" href="assets/css/flag-icon.css" />
+    <!-- Feather icon-->
+    <link rel="stylesheet" href="assets/css/feather-icon.css" />
+    <!-- Plugins css start-->
+    <link rel="stylesheet" href="assets/css/chartist.css" />
+    <link rel="stylesheet" href="assets/css/prism.css" />
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- App css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/project.css" />
+    <link
+      id="color"
+      rel="stylesheet"
+      href="assets/css/light-1.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/datatables.css"
+    />
+    <link rel="stylesheet" href="assets/css/color-btn.css" />
+    <!-- Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/btn-switch.css" />
+  </head>
+  <body>
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+      <div class="loader bg-white">
+        <div class="whirly-loader"></div>
+      </div>
+    </div>
+    <!-- Loader ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper">
+      <!-- Page Header Start-->
+      <div class="page-main-header">
+        <div class="main-header-right row">
+          <div class="main-header-left d-lg-none">
+            <div class="logo-wrapper">
+              <a href="index.html"
+                ><img src="assets/images/endless-logo.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="mobile-sidebar d-block">
+            <div class="media-body text-right switch-sm">
+              <label class="switch"
+                ><a href="#"
+                  ><i id="sidebar-toggle" data-feather="align-left"></i></a
+              ></label>
+            </div>
+          </div>
+          <div class="nav-right col p-0">
+            <ul class="nav-menus">
+              <li class="onhover-dropdown">
+                <i data-feather="bell"></i><span class="dot"></span>
+                <ul class="notification-dropdown onhover-show-div">
+                  <li>
+                    Notification
+                    <span class="badge badge-pill badge-primary pull-right"
+                      >3</span
+                    >
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-body">
+                        <h6 class="mt-0">
+                          <span
+                            ><i
+                              class="shopping-color"
+                              data-feather="shopping-bag"
+                            ></i></span
+                          >Your order ready for Ship..!<small class="pull-right"
+                            >9:00 AM</small
+                          >
+                        </h6>
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet, consectetuer.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-body">
+                        <h6 class="mt-0 txt-success">
+                          <span
+                            ><i
+                              class="download-color font-success"
+                              data-feather="download"
+                            ></i></span
+                          >Download Complete<small class="pull-right"
+                            >2:30 PM</small
+                          >
+                        </h6>
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet, consectetuer.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="media">
+                      <div class="media-body">
+                        <h6 class="mt-0 txt-danger">
+                          <span
+                            ><i
+                              class="alert-color font-danger"
+                              data-feather="alert-circle"
+                            ></i></span
+                          >250 MB trash files<small class="pull-right"
+                            >5:00 PM</small
+                          >
+                        </h6>
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet, consectetuer.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="bg-light txt-dark">
+                    <a href="#">All</a> notification
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-lg-none mobile-toggle pull-right">
+              <i data-feather="more-horizontal"></i>
+            </div>
+          </div>
+          <script id="result-template" type="text/x-handlebars-template">
+            <div class="ProfileCard u-cf">
+              <div class="ProfileCard-avatar">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-airplay m-0"
+                >
+                  <path
+                    d="M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"
+                  ></path>
+                  <polygon points="12 15 17 21 7 21 12 15"></polygon>
+                </svg>
+              </div>
+              <div class="ProfileCard-details">
+                <div class="ProfileCard-realName">
+                  {{name}}
+                </div>
+              </div>
+            </div>
+          </script>
+          <script id="empty-template" type="text/x-handlebars-template">
+            <div class="EmptyMessage">
+              Your search turned up 0 results. This most likely means the backend is down, yikes!
+            </div>
+          </script>
+        </div>
+      </div>
+      <!-- Page Header Ends                              -->
+      <!-- Page Body Start-->
+      <div class="page-body-wrapper">
+        <!-- Page Sidebar Start-->
+        <div class="page-sidebar">
+          <div class="main-header-left d-none d-lg-block">
+            <div class="logo-wrapper justify-content-center">
+              <a href="index.html"
+                ><img src="assets/media/icon-cariin.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="sidebar custom-scrollbar">
+            <ul class="sidebar-menu">
+              <li>
+                <a class="sidebar-header" href="dashboard.html"
+                  ><img
+                    src="assets/media/icon-dashboard.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Dashboard</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="enable-disable-service.html"
+                  ><img
+                    src="assets/media/icon-service.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Enable & Disable Service</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="api-balance-setting.html"
+                  ><img
+                    src="assets/media/icon-setting.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>API Balance & Setting</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="partner-listing-deposit.html"
+                  ><img
+                    src="assets/media/icon-deposit.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Partner Listing & Deposit</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="transaksi.html"
+                  ><img
+                    src="assets/media/icon-transaksi.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Transaksi</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="refund-transaction.html"
+                  ><img
+                    src="assets/media/icon-refund-active.png"
+                    alt=""
+                    class="mr-3"
+                  /><span class="link-active">Refund Transaction</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="produk-komisi.html"
+                  ><img
+                    src="assets/media/icon-komisi.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Produk & Komisi</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="promo.html"
+                  ><img
+                    src="assets/media/icon-promosi.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Promo</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="user-administrator.html"
+                  ><img
+                    src="assets/media/icon-user.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>User Administrator</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="user-listing.html"
+                  ><img
+                    src="assets/media/icon-admin.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>User Listing</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="service-on-demand.html"
+                  ><img
+                    src="assets/media/icon-demand.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Service on Demand</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="map-view.html"
+                  ><img
+                    src="assets/media/icon-map.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Map View</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="push-notification.html"
+                  ><img
+                    src="assets/media/icon-notif.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Push Notification</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="store-setting.html"
+                  ><img
+                    src="assets/media/icon-store.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Store Setting</span></a
+                >
+              </li>
+              <hr class="my-2" />
+              <li>
+                <a class="sidebar-header" href="setup.html"
+                  ><img
+                    src="assets/media/icon-setup.png"
+                    alt=""
+                    class="mr-3"
+                  /><span>Setup</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Page Sidebar Ends-->
+        <div class="page-body">
+          <div class="px-4">
+            <div class="d-flex align-items-center pt-4">
+              <img
+                src="assets/media/icon-refund-active.png"
+                alt=""
+                class="mr-3"
+              />
+              <p class="logo-title">Refund</p>
+            </div>
+            <h3 class="mt-3 mb-2 title">Refund Transaction</h3>
+          </div>
+          <!-- Container-fluid starts-->
+          <div class="container-fluid">
+            <div class="dashboard-card">
+              <div class="card w-100 card-scroll">
+                <div class="card-body">
+                  <div class="chart-widget-dashboard">
+                    <div class="media">
+                      <div class="media-body">
+                        <div class="row">
+                          <div class="col-12">
+                            <ul
+                              class="nav nav-pills mb-3"
+                              id="pills-tab"
+                              role="tablist"
+                            >
+                              <li class="nav-item">
+                                <a
+                                  class="nav-link active"
+                                  id="pills-pesawat-tab"
+                                  data-toggle="pill"
+                                  href="#pills-pesawat"
+                                  role="tab"
+                                  aria-controls="pills-pesawat"
+                                  aria-selected="true"
+                                  >Pesawat</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a
+                                  class="nav-link"
+                                  id="pills-kereta-tab"
+                                  data-toggle="pill"
+                                  href="#pills-kereta"
+                                  role="tab"
+                                  aria-controls="pills-kereta"
+                                  aria-selected="false"
+                                  >Kereta</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a
+                                  class="nav-link"
+                                  id="pills-bus-tab"
+                                  data-toggle="pill"
+                                  href="#pills-bus"
+                                  role="tab"
+                                  aria-controls="pills-bus"
+                                  aria-selected="true"
+                                  >Bus</a
+                                >
+                              </li>
+                              <li class="nav-item">
+                                <a
+                                  class="nav-link"
+                                  id="pills-pelni-tab"
+                                  data-toggle="pill"
+                                  href="#pills-pelni"
+                                  role="tab"
+                                  aria-controls="pills-pelni"
+                                  aria-selected="false"
+                                  >Pelni</a
+                                >
+                              </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                              <div
+                                class="tab-pane fade show active"
+                                id="pills-pesawat"
+                                role="tabpanel"
+                                aria-labelledby="pills-pesawat-tab"
+                              >
+                                <ul
+                                  class="nav nav-pills-sub mb-4"
+                                  id="pills-tab"
+                                  role="tablist"
+                                >
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link active"
+                                      id="pills-menunggu-tab"
+                                      data-toggle="pill"
+                                      href="#pills-menunggu"
+                                      role="tab"
+                                      aria-controls="pills-menunggu"
+                                      aria-selected="true"
+                                      >Menunggu</a
+                                    >
+                                  </li>
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link"
+                                      id="pills-riwayat-tab"
+                                      data-toggle="pill"
+                                      href="#pills-riwayat"
+                                      role="tab"
+                                      aria-controls="pills-riwayat"
+                                      aria-selected="false"
+                                      >Riwayat</a
+                                    >
+                                  </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                  <div
+                                    class="tab-pane fade show active"
+                                    id="pills-menunggu"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-menunggu-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-1"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th>Action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade show"
+                                    id="pills-riwayat"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-riwayat-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-2"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tab-pane fade show"
+                                id="pills-kereta"
+                                role="tabpanel"
+                                aria-labelledby="pills-kereta-tab"
+                              >
+                                <ul
+                                  class="nav nav-pills-sub mb-4"
+                                  id="pills-tab"
+                                  role="tablist"
+                                >
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link active"
+                                      id="pills-menunggu1-tab"
+                                      data-toggle="pill"
+                                      href="#pills-menunggu1"
+                                      role="tab"
+                                      aria-controls="pills-menunggu1"
+                                      aria-selected="true"
+                                      >Menunggu</a
+                                    >
+                                  </li>
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link"
+                                      id="pills-riwayat1-tab"
+                                      data-toggle="pill"
+                                      href="#pills-riwayat1"
+                                      role="tab"
+                                      aria-controls="pills-riwayat1"
+                                      aria-selected="false"
+                                      >Riwayat</a
+                                    >
+                                  </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                  <div
+                                    class="tab-pane fade show active"
+                                    id="pills-menunggu1"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-menunggu1-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-3"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th>Action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade show"
+                                    id="pills-riwayat1"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-riwayat1-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-4"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tab-pane fade show"
+                                id="pills-bus"
+                                role="tabpanel"
+                                aria-labelledby="pills-bus-tab"
+                              >
+                                <ul
+                                  class="nav nav-pills-sub mb-4"
+                                  id="pills-tab"
+                                  role="tablist"
+                                >
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link active"
+                                      id="pills-menunggu2-tab"
+                                      data-toggle="pill"
+                                      href="#pills-menunggu2"
+                                      role="tab"
+                                      aria-controls="pills-menunggu2"
+                                      aria-selected="true"
+                                      >Menunggu</a
+                                    >
+                                  </li>
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link"
+                                      id="pills-riwayat2-tab"
+                                      data-toggle="pill"
+                                      href="#pills-riwayat2"
+                                      role="tab"
+                                      aria-controls="pills-riwayat2"
+                                      aria-selected="false"
+                                      >Riwayat</a
+                                    >
+                                  </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                  <div
+                                    class="tab-pane fade show active"
+                                    id="pills-menunggu2"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-menunggu2-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-5"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th>Action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade show"
+                                    id="pills-riwayat2"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-riwayat2-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-6"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                class="tab-pane fade show"
+                                id="pills-pelni"
+                                role="tabpanel"
+                                aria-labelledby="pills-pelni-tab"
+                              >
+                                <ul
+                                  class="nav nav-pills-sub mb-4"
+                                  id="pills-tab"
+                                  role="tablist"
+                                >
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link active"
+                                      id="pills-menunggu4-tab"
+                                      data-toggle="pill"
+                                      href="#pills-menunggu4"
+                                      role="tab"
+                                      aria-controls="pills-menunggu4"
+                                      aria-selected="true"
+                                      >Menunggu</a
+                                    >
+                                  </li>
+                                  <li class="nav-item">
+                                    <a
+                                      class="nav-link"
+                                      id="pills-riwayat4-tab"
+                                      data-toggle="pill"
+                                      href="#pills-riwayat4"
+                                      role="tab"
+                                      aria-controls="pills-riwayat4"
+                                      aria-selected="false"
+                                      >Riwayat</a
+                                    >
+                                  </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                  <div
+                                    class="tab-pane fade show"
+                                    id="pills-menunggu4"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-menunggu4-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-7"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th>Action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div class="d-flex">
+                                                <button class="btn-tolak mr-1">
+                                                  Tolak
+                                                </button>
+                                                <button class="btn-terima">
+                                                  Terima
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade show"
+                                    id="pills-riwayat4"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-riwayat4-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-8"
+                                      >
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Nama Pengguna</th>
+                                            <th>Nomor HP</th>
+                                            <th>Tanggal Refund</th>
+                                            <th>Alasan Refund</th>
+                                            <th></th>
+                                            <th></th>
+                                          </tr>
+                                        </thead>
+                                        <tbody class="hover-row pointer">
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>1293129</td>
+                                            <td>08/12/2020</td>
+                                            <td>Rakhmat Fadhillah</td>
+                                            <td>08129310239</td>
+                                            <td>10/12/2020</td>
+                                            <td>
+                                              Kematian keluarga atau kerabat
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a href="" class="text-success">
+                                                Diterima
+                                              </a>
+                                            </td>
+                                            <td style="width: 11%">
+                                              <a
+                                                href="refund-transaction-detail.html"
+                                                class="text-warning"
+                                              >
+                                                Lihat Detail
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container-fluid Ends-->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalLowongan"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Farel Elsarawi</h5>
+                  <div class="row">
+                    <div class="col-7">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-building.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>PT Omind Muda Berkarya Indonesia</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>Jalan Sukamjaya, Depok</p>
+                      </div>
+                    </div>
+                    <div class="col-5">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>farel@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <p>ID : U001</p>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="card-total">
+                  <h5 class="text-primary">2</h5>
+                  <h6 class="text-primary">Total Pelamar</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card-diterima">
+                  <h5 class="text-success">2</h5>
+                  <h6 class="text-success">Pelamar diterima</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card-ditolak">
+                  <h5 class="text-danger">4</h5>
+                  <h6 class="text-danger">Pelamar ditolak</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">ID</h5>
+                  <h6 class="text-bold">0001</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Tanggal Lowongan</h5>
+                  <h6 class="text-bold">01/07/2020</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Nama Lowongan</h5>
+                  <h6 class="text-bold">UX Researcher</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Jenis Lowongan</h5>
+                  <h6 class="text-bold">Fulltime</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Nilai Pekerjaan</h5>
+                  <h6 class="text-bold text-success">Rp 6.000.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Pembayaran</h5>
+                  <h6 class="text-bold">Per Bulan</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Alamat</h5>
+                  <h6 class="text-bold">Jalan Sukamjaya, Depok, Jawa Barat</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Kota</h5>
+                  <h6 class="text-bold">Depok</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Maps Lokasi</h5>
+                  <h6 class="text-bold">-12.21309, 2137912</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Tanggal Publish</h5>
+                  <h6 class="text-bold">01/07/2020</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Tanggal Limit</h5>
+                  <h6 class="text-bold">25/07/2020</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column align-items-center text-center">
+                  <h5 class="text-regular mb-1">Jangaka Waktu</h5>
+                  <h6 class="text-bold">25 Hari</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalPelamar"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-5">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <button class="btn-hired w70">Hired</button>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-4">
+              <div class="col-12">
+                <h5>Info Lowongan</h5>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">No Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="1234"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Jenis Lowongan</h6>
+                  <select class="select-edit pointer text-bold">
+                    <option selected="true" disabled="disabled" value="pilih">
+                      Status
+                    </option>
+                    <option selected="true" value="1">Proyek</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Nama Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="UI Designer"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="field">
+                  <h6 class="mb-3">Alamat Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="Jl. Gadjah Mada No.17 RT04/RW03 Bogor Selatan"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-warning">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-primary">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-success">Rp 11.500.000</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Metode Pembayaran</h6>
+                  <h6 class="text-bold">Tunai</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="text-danger pointer mr-5" data-dismiss="modal"> Batal </a>
+            <button type="button" class="btn btn-warning">Simpan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalAbitrase"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-5">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <button class="btn-refund w70">Laporkan</button>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-4">
+              <div class="col-12">
+                <h5>Info Lowongan</h5>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">No Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="1234"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Jenis Lowongan</h6>
+                  <select class="select-edit pointer text-bold">
+                    <option selected="true" disabled="disabled" value="pilih">
+                      Status
+                    </option>
+                    <option selected="true" value="1">Proyek</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Nama Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="UI Designer"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="field">
+                  <h6 class="mb-3">Alamat Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="Jl. Gadjah Mada No.17 RT04/RW03 Bogor Selatan"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-warning">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-primary">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-success">Rp 11.500.000</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Metode Pembayaran</h6>
+                  <h6 class="text-bold">Tunai</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="text-danger pointer mr-5" data-dismiss="modal"> Batal </a>
+            <button type="button" class="btn btn-warning">Simpan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalCancel"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-5">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <button class="btn-cancel w70">Canceled</button>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-4">
+              <div class="col-12">
+                <h5>Info Lowongan</h5>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">No Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="1234"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Jenis Lowongan</h6>
+                  <select class="select-edit pointer text-bold">
+                    <option selected="true" disabled="disabled" value="pilih">
+                      Status
+                    </option>
+                    <option selected="true" value="1">Proyek</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Nama Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="UI Designer"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="field">
+                  <h6 class="mb-3">Alamat Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="Jl. Gadjah Mada No.17 RT04/RW03 Bogor Selatan"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-warning">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-primary">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-success">Rp 11.500.000</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Metode Pembayaran</h6>
+                  <h6 class="text-bold">Tunai</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="text-danger pointer mr-5" data-dismiss="modal"> Batal </a>
+            <button type="button" class="btn btn-warning">Simpan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalRefund"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-5">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-7">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <button class="btn-refund w70">Refund</button>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-4">
+              <div class="col-12">
+                <h5>Info Lowongan</h5>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">No Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="1234"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Jenis Lowongan</h6>
+                  <select class="select-edit pointer text-bold">
+                    <option selected="true" disabled="disabled" value="pilih">
+                      Status
+                    </option>
+                    <option selected="true" value="1">Proyek</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Nama Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="UI Designer"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-12">
+                <div class="field">
+                  <h6 class="mb-3">Alamat Lowongan</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="Jl. Gadjah Mada No.17 RT04/RW03 Bogor Selatan"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-4">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row align-items-center">
+              <div class="col-2">
+                <div class="border-profile-edit">
+                  <img src="assets/media/img-profile.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="d-flex flex-column justify-content-around">
+                  <h5 class="mb-2">Emil Insan Kamil</h5>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-mail.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>021938012938</p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-phone.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>emil@gmail.com</p>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="assets/media/icon-location.png"
+                          alt=""
+                          class="mr-2"
+                        />
+                        <p>
+                          Jl. Ceremai Ujung, RT.03/RW.03, Bogor, Jawa Barat
+                          16129
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-warning">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-primary">Rp 11.500.000</h6>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="d-flex flex-column">
+                  <h5 class="text-regular mb-1">Nilai Penawaran</h5>
+                  <h6 class="text-bold text-success">Rp 11.500.000</h6>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Maps Loc Registrar</h6>
+                  <input
+                    class="input-add-listing text-bold"
+                    type="text"
+                    value="-6.245466, 106.798192"
+                  />
+                  <div class="line"></div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="field">
+                  <h6 class="mb-3">Metode Pembayaran</h6>
+                  <h6 class="text-bold">Tunai</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a class="text-danger pointer mr-5" data-dismiss="modal"> Batal </a>
+            <button type="button" class="btn btn-warning">Simpan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalTrash"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body mb50">
+            <div class="border-popup-trash">
+              <img src="assets/media/icon-popup-trash.png" alt="" />
+            </div>
+            <h4 class="text-center my-4">
+              Apakah anda yakin akan menghapus tansaksi
+              <span class="text-primary">Farel Elsarawi</span>?
+            </h4>
+          </div>
+          <div class="modal-footer">
+            <a class="text-dark pointer mr-5" data-dismiss="modal"> Batal </a>
+            <button type="button" class="btn btn-danger">Simpan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- latest jquery-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <script src="assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
+    <script src="assets/js/datatable/datatables/datatable.custom.js"></script>
+    <script src="assets/js/chart/chartist/chartist.js"></script>
+    <script src="assets/js/chart/knob/knob.min.js"></script>
+    <script src="assets/js/chart/knob/knob-chart.js"></script>
+    <script src="assets/js/prism/prism.min.js"></script>
+    <script src="assets/js/clipboard/clipboard.min.js"></script>
+    <script src="assets/js/counter/jquery.waypoints.min.js"></script>
+    <script src="assets/js/counter/jquery.counterup.min.js"></script>
+    <script src="assets/js/counter/counter-custom.js"></script>
+    <script src="assets/js/custom-card/custom-card.js"></script>
+    <script src="assets/js/notify/bootstrap-notify.min.js"></script>
+    <script src="assets/js/dashboard/default.js"></script>
+    <script src="assets/js/notify/index.js"></script>
+    <script src="assets/js/typeahead/handlebars.js"></script>
+    <script src="assets/js/typeahead/typeahead.bundle.js"></script>
+    <script src="assets/js/typeahead/typeahead.custom.js"></script>
+    <script src="assets/js/chat-menu.js"></script>
+    <script src="assets/js/height-equal.js"></script>
+    <script src="assets/js/tooltip-init.js"></script>
+    <script src="assets/js/typeahead-search/handlebars.js"></script>
+    <script src="assets/js/typeahead-search/typeahead-custom.js"></script>
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/theme-customizer/customizer.js"></script>
+    <!-- Plugin used-->
+  </body>
+</html>
