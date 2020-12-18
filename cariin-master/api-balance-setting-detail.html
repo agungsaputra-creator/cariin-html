@@ -391,7 +391,7 @@
             <div class="px-4">
               <div class="d-flex align-items-center pt-4">
                 <img
-                  src="assets/media/icon-dashboard.png"
+                  src="assets/media/icon-setting-active.png"
                   alt=""
                   class="mr-3"
                 />
@@ -407,43 +407,72 @@
                   <div class="table-responsive">
                     <table class="row-border" id="example-style-7">
                       <!-- Button trigger modal -->
-                      <button
-                        type="button"
-                        class="btn btn-add absolute-right"
-                        data-toggle="modal"
-                        data-target="#modalAdd"
-                      >
-                        Tambah
-                      </button>
-                      <h5 class="mb-5">API List Management</h5>
+                      <div class="d-flex justify-content-between">
+                        <h5 class="mb-5">Rajabiller</h5>
+                        <h5>Balance Deposit <span class="text-success">Rp 9.955.000</span></h5>
+                      </div>
                       <thead>
                         <tr>
                           <th>No</th>
-                          <th>Produk</th>
-                          <th>Corporate Name</th>
-                          <th>Password</th>
-                          <th>Url</th>
-                          <th>Status</th>
-                          <th>Saldo Deposit</th>
-                          <th>Manage API</th>
+                          <th>Nomor Transaksi</th>
+                          <th>Tanggal Transaksi</th>
+                          <th>Bank Transfer</th>
+                          <th>No Rekening</th>
+                          <th>Nama Rekening Penerima</th>
+                          <th>API Transaksi</th>
+                          <th>Jenis Transaksi</th>
+                          <th>Nama Transaksi</th>
+                          <th>Jumlah Transaksi</th>
+                          <th>Balance</th>
+                          <th>Status Transaksi</th>
                           <th>Action</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>1</td>
-                          <td>Pulsa</td>
-                          <td>Rajabiller</td>
-                          <td>12der312r</td>
-                          <td>http://demo….</td>
+                          <td>13712319230</td>
+                          <td>5 - 12 - 2020</td>
+                          <td>5 - 12 - 2020</td>
+                          <td>2137192380120</td>
+                          <td>Jacky</td>
+                          <td class="text-uppercase">Rajabiller</td>
+                          <td class="text-uppercase">DEPOSIT</td>
+                          <td class="text-uppercase">DEPOSIT AWAL</td>
+                          <td class="text-success">+ Rp 10.000.000</td>
+                          <td class="text-success">Rp 10.000.000</td>
                           <td class="nonpadding">
                             <button class="btn-active w90 pointer">
-                              <img src="assets/media/icon-active.png" alt="" />
-                              Active
+                              Berhasil
                             </button>
                           </td>
-                          <td>Rp 9.955.000</td>
-                          <td>Edit</td>
+                          <td>
+                            <img
+                              class="pointer"
+                              src="assets/media/icon-eye.png"
+                              alt=""
+                              data-toggle="modal"
+                              data-target="#modalAction"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>13712319230</td>
+                          <td>5 - 12 - 2020</td>
+                          <td>5 - 12 - 2020</td>
+                          <td>2137192380120</td>
+                          <td>Jacky</td>
+                          <td class="text-uppercase">Rajabiller</td>
+                          <td class="text-uppercase">DEPOSIT</td>
+                          <td class="text-uppercase">DEPOSIT AWAL</td>
+                          <td class="text-danger">- Rp 10.000.000</td>
+                          <td class="text-success">Rp 10.000.000</td>
+                          <td class="nonpadding">
+                            <button class="btn-suspend w90 pointer">
+                              Gagal
+                            </button>
+                          </td>
                           <td>
                             <img
                               class="pointer"
