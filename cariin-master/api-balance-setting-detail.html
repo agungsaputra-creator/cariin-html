@@ -76,6 +76,8 @@
       type="text/css"
       href="assets/css/responsive.css"
     />
+    <link rel="stylesheet" href="assets/css/btn-switch.css" />
+    <link rel="stylesheet" href="assets/css/color-btn.css" />
   </head>
   <body>
     <!-- Loader starts-->
@@ -580,40 +582,26 @@
             <form action="">
               <h2 class="text-center">Manage API</h2>
               <hr class="pt-2 pb-4" />
-              <div class="d-flex">
-                <p>Pulsa</p>
-                <button class="btn-active w90 pointer">
+              <div
+                class="d-flex flex-row justify-content-between align-items-center mb-5"
+              >
+                <h5>Pulsa</h5>
+                <button class="btn-active pointer" style="width: 20%">
                   <img src="assets/media/icon-active.png" alt="" />
                   Active
                 </button>
-                <div class="row">
-                  <div class="col-sm-2">
-                    <h6>Small</h6>
-                  </div>
-
-                  <div class="col-sm-5">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-toggle"
-                      data-toggle="button"
-                      aria-pressed="false"
-                      autocomplete="off"
-                    >
-                      <div class="handle"></div>
-                    </button>
-                  </div>
-
-                  <div class="col-sm-5">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-toggle active"
-                      data-toggle="button"
-                      aria-pressed="true"
-                      autocomplete="off"
-                    >
-                      <div class="handle"></div>
-                    </button>
-                  </div>
+                <div
+                  class="button-switch"
+                  style="height: 1.575em; margin-bottom: 0"
+                >
+                  <input
+                    type="checkbox"
+                    id="switch-blue"
+                    class="switch"
+                    checked
+                  />
+                  <label for="switch-blue" class="lbl-off">Off</label>
+                  <label for="switch-blue" class="lbl-on">On</label>
                 </div>
               </div>
               <div class="field mb-5">
