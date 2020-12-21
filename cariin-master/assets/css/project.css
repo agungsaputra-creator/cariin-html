@@ -160,12 +160,13 @@ a:hover {
 }
 
 .btn-inactive {
+  background: #F2F0F9 !important;
   border-radius: 10px !important;
   border: none !important;
   padding: 6px 5px !important;
   font-size: 12px !important;
   line-height: 15px !important;
-  color: #4a4aff !important;
+  color: #6E6893 !important;
 }
 .btn-suspend {
   background: #ffe3dd !important;
@@ -582,4 +583,47 @@ iframe {
   background: #fff;
   color: #febc41;
   text-align: center;
+}
+
+div#cke_1_contents,
+div#cke_2_contents,
+div#cke_3_contents,
+div#cke_4_contents,
+div#cke_5_contents{
+  height: 400px !important;
+}
+
+.faq-save{
+  padding: 11px 0;
+  width: 10%;
+  background: #EA9813;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  justify-content: center;
+  
+}
+.faq-cancel{
+  padding: 11px 0;
+  width: 10%;
+  background: #FFFFFF;
+  border: 1px solid #EA9813;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #EA9813;
+  justify-content: center;
+  
 }

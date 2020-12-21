@@ -555,7 +555,7 @@
                                             <th>No</th>
                                             <th>ID</th>
                                             <th>Tanggal Lowongan</th>
-                                            <th>Tanggal Lowongan</th>
+                                            <th>Nama Pemberi Kerja</th>
                                             <th>Nilai Pekerjaan</th>
                                             <th>Perusahaan</th>
                                             <th>Posisi</th>
@@ -766,7 +766,7 @@
                                                 />
                                                 <img
                                                   class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
+                                                  src="assets/media/icon-edit.png"
                                                   alt=""
                                                   data-toggle="modal"
                                                   data-target="#modalTele"
@@ -1076,7 +1076,7 @@
                                                 />
                                                 <img
                                                   class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
+                                                  src="assets/media/icon-edit.png"
                                                   alt=""
                                                   data-toggle="modal"
                                                   data-target="#modalTele"
@@ -1276,7 +1276,7 @@
                                                 />
                                                 <img
                                                   class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
+                                                  src="assets/media/icon-edit.png"
                                                   alt=""
                                                   data-toggle="modal"
                                                   data-target="#modalTele"
@@ -1578,596 +1578,171 @@
                                         <!-- Button trigger modal -->
                                         <button
                                           type="button"
-                                          class="btn add-partner"
+                                          class="btn btn-add absolute-right"
                                           data-toggle="modal"
                                           data-target="#modalAdd"
                                         >
-                                          Tambah
-                                        </button>
-                                        <button
-                                          type="button"
-                                          class="btn export-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Export
+                                          Add Transaction
                                         </button>
                                         <h5 class="mb-5">Lowongan Kerja</h5>
                                         <thead>
                                           <tr>
                                             <th>No</th>
-                                            <th>ID</th>
-                                            <th>Tanggal Lowongan</th>
-                                            <th>Tanggal Lowongan</th>
-                                            <th>Nilai Pekerjaan</th>
-                                            <th>Perusahaan</th>
-                                            <th>Posisi</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Username</th>
+                                            <th>No Telepon</th>
+                                            <th>Email</th>
+                                            <th>Transaksi</th>
+                                            <th>Saldo</th>
                                             <th>Status</th>
-                                            <th></th>
+                                            <th>action</th>
                                           </tr>
                                         </thead>
                                         <tbody>
                                           <tr>
                                             <td>1</td>
-                                            <td>123123</td>
+                                            <td>W001</td>
                                             <td>01/13/2020</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-success">
-                                              RP 5.000.000
+                                            <td>Tini</td>
+                                            <td>
+                                              082391239309
                                             </td>
                                             <td>
-                                              PT Omind Muda Berkarya Indonesia
+                                              tini@gmail.com
                                             </td>
-                                            <td>UX Reasearcher</td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Deposit</p>
+                                                <p class="text-bold text-success">+Rp 100.000</p>
+                                              </div>
+                                            </td>
+                                            <td class="text-primary">Rp 120.000</td>
                                             <td class="nonpadding">
                                               <button
                                                 class="btn-opened w90 pointer"
                                               >
-                                                Opened
+                                                Berhasil
                                               </button>
                                             </td>
                                             <td class="nonpadding">
-                                              View more
+                                              <div
+                                                class="d-flex justify-content-around"
+                                              >
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-eye.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalSee"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-pen.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalCreate"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-edit.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTele"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-trash.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTrash"
+                                                />
+                                              </div>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td>1</td>
-                                            <td>123123</td>
+                                            <td>W001</td>
                                             <td>01/13/2020</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-success">
-                                              RP 5.000.000
+                                            <td>Tini</td>
+                                            <td>
+                                              082391239309
                                             </td>
                                             <td>
-                                              PT Omind Muda Berkarya Indonesia
+                                              tini@gmail.com
                                             </td>
-                                            <td>UX Reasearcher</td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Deposit</p>
+                                                <p class="text-bold text-success">+Rp 100.000</p>
+                                              </div>
+                                            </td>
+                                            <td class="text-primary">Rp 120.000</td>
                                             <td class="nonpadding">
                                               <button
                                                 class="btn-reject w90 pointer"
                                               >
-                                                Reject
+                                                Ditolak
                                               </button>
                                             </td>
                                             <td class="nonpadding">
-                                              View more
+                                              <div
+                                                class="d-flex justify-content-around"
+                                              >
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-eye.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalSee"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-pen.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalCreate"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-edit.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTele"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-trash.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTrash"
+                                                />
+                                              </div>
                                             </td>
                                           </tr>
                                           <tr>
                                             <td>1</td>
-                                            <td>123123</td>
+                                            <td>W001</td>
                                             <td>01/13/2020</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-success">
-                                              RP 5.000.000
+                                            <td>Tini</td>
+                                            <td>
+                                              082391239309
                                             </td>
                                             <td>
-                                              PT Omind Muda Berkarya Indonesia
+                                              tini@gmail.com
                                             </td>
-                                            <td>UX Reasearcher</td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-close w90 pointer"
-                                              >
-                                                Close
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              View more
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="tab-pane fade"
-                                    id="pills-pelamar"
-                                    role="tabpanel"
-                                    aria-labelledby="pills-pelamar-tab"
-                                  >
-                                    <div class="table-responsive">
-                                      <table
-                                        class="row-border"
-                                        id="example-style-2"
-                                      >
-                                        <!-- Button trigger modal -->
-                                        <button
-                                          type="button"
-                                          class="btn add-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Tambah
-                                        </button>
-                                        <button
-                                          type="button"
-                                          class="btn export-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Export
-                                        </button>
-                                        <h5 class="mb-5">Lowongan Kerja</h5>
-                                        <thead>
-                                          <tr>
-                                            <th>No</th>
-                                            <th>Tanggal</th>
-                                            <th>Pencari Kerja</th>
-                                            <th>Email Pencari Kerja</th>
-                                            <th>Posisi</th>
-                                            <th>Penerima Kerja</th>
-                                            <th>Penawaran</th>
-                                            <th>Kesepakatan</th>
-                                            <th>Status</th>
-                                            <th>Action</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-contacting w90 pointer"
-                                              >
-                                                Contacting
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Deposit</p>
+                                                <p class="text-bold text-danger">-Rp 100.000</p>
                                               </div>
                                             </td>
-                                          </tr>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-applying w90 pointer"
-                                              >
-                                                Applying
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
-                                              </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-ongoing w90 pointer"
-                                              >
-                                                Ongoing
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
-                                              </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-hired w90 pointer"
-                                              >
-                                                Hired
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
-                                              </div>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="tab-pane fade"
-                                    id="pills-pembatalan"
-                                    role="tabpanel"
-                                    aria-labelledby="pills-pembatalan-tab"
-                                  >
-                                    <div class="table-responsive">
-                                      <table
-                                        class="row-border"
-                                        id="example-style-3"
-                                      >
-                                        <!-- Button trigger modal -->
-                                        <button
-                                          type="button"
-                                          class="btn add-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Tambah
-                                        </button>
-                                        <button
-                                          type="button"
-                                          class="btn export-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Export
-                                        </button>
-                                        <h5 class="mb-5">Lowongan Kerja</h5>
-                                        <thead>
-                                          <tr>
-                                            <th>No</th>
-                                            <th>Tanggal</th>
-                                            <th>Pencari Kerja</th>
-                                            <th>Email Pencari Kerja</th>
-                                            <th>Posisi</th>
-                                            <th>Penerima Kerja</th>
-                                            <th>Penawaran</th>
-                                            <th>Kesepakatan</th>
-                                            <th>Status</th>
-                                            <th>Action</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-cancel w90 pointer"
-                                              >
-                                                Canceled
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
-                                              </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-cancel w90 pointer"
-                                              >
-                                                Reject
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
-                                              </div>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                  <div
-                                    class="tab-pane fade"
-                                    id="pills-refund"
-                                    role="tabpanel"
-                                    aria-labelledby="pills-refund-tab"
-                                  >
-                                    <div class="table-responsive">
-                                      <table
-                                        class="row-border"
-                                        id="example-style-4"
-                                      >
-                                        <!-- Button trigger modal -->
-                                        <button
-                                          type="button"
-                                          class="btn add-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Tambah
-                                        </button>
-                                        <button
-                                          type="button"
-                                          class="btn export-partner"
-                                          data-toggle="modal"
-                                          data-target="#modalAdd"
-                                        >
-                                          Export
-                                        </button>
-                                        <h5 class="mb-5">Lowongan Kerja</h5>
-                                        <thead>
-                                          <tr>
-                                            <th>No</th>
-                                            <th>Tanggal</th>
-                                            <th>Pencari Kerja</th>
-                                            <th>Email Pencari Kerja</th>
-                                            <th>Posisi</th>
-                                            <th>Penerima Kerja</th>
-                                            <th>Penawaran</th>
-                                            <th>Kesepakatan</th>
-                                            <th>Status</th>
-                                            <th>Action</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
+                                            <td class="text-primary">Rp 120.000</td>
                                             <td class="nonpadding">
                                               <button
                                                 class="btn-refund w90 pointer"
                                               >
-                                                Refund
+                                                Menunggu
                                               </button>
                                             </td>
                                             <td class="nonpadding">
@@ -2190,62 +1765,7 @@
                                                 />
                                                 <img
                                                   class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTele"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-trash.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalTrash"
-                                                />
-                                              </div>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td>1</td>
-                                            <td>01/13/2020</td>
-                                            <td>Emil Insan Kamil</td>
-                                            <td>email@gmail.com</td>
-                                            <td>UI Designer</td>
-                                            <td>Farel Elsarawi</td>
-                                            <td class="text-warning">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="text-success">
-                                              Rp 11.500.000
-                                            </td>
-                                            <td class="nonpadding">
-                                              <button
-                                                class="btn-refund w90 pointer"
-                                              >
-                                                Refund
-                                              </button>
-                                            </td>
-                                            <td class="nonpadding">
-                                              <div
-                                                class="d-flex justify-content-around"
-                                              >
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-eye.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalSee"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-pen.png"
-                                                  alt=""
-                                                  data-toggle="modal"
-                                                  data-target="#modalCreate"
-                                                />
-                                                <img
-                                                  class="pointer px-1"
-                                                  src="assets/media/icon-tele.png"
+                                                  src="assets/media/icon-edit.png"
                                                   alt=""
                                                   data-toggle="modal"
                                                   data-target="#modalTele"
@@ -2266,9 +1786,475 @@
                                   </div>
                                   <div
                                     class="tab-pane fade"
-                                    id="pills-abitrase"
+                                    id="pills-b2"
                                     role="tabpanel"
-                                    aria-labelledby="pills-abitrase-tab"
+                                    aria-labelledby="pills-b2-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-7"
+                                      >
+                                        <!-- Button trigger modal -->
+                                        <button
+                                          type="button"
+                                          class="btn btn-add absolute-right"
+                                          data-toggle="modal"
+                                          data-target="#modalAdd"
+                                        >
+                                          Add Transaction
+                                        </button>
+                                        <h5 class="mb-5">Lowongan Kerja</h5>
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Userid</th>
+                                            <th>Username</th>
+                                            <th>Transaksi Pembayaran</th>
+                                            <th>Transaksi</th>
+                                            <th>Rekening Penerima</th>
+                                            <th>Status</th>
+                                            <th>action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>W001</td>
+                                            <td>01/13/2020</td>
+                                            <td>U001</td>
+                                            <td>
+                                              haura
+                                            </td>
+                                            <td>
+                                              Tiket Pesawat
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Wallet</p>
+                                                <p class="text-bold text-success">+Rp 100.000</p>
+                                              </div>
+                                            </td>
+                                            <td class="text-primary">Ewallet</td>
+                                            <td class="nonpadding">
+                                              <button
+                                                class="btn-opened w90 pointer"
+                                              >
+                                                Berhasil
+                                              </button>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div
+                                                class="d-flex justify-content-around"
+                                              >
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-eye.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalSee"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-pen.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalCreate"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-edit.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTele"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-trash.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTrash"
+                                                />
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>W001</td>
+                                            <td>01/13/2020</td>
+                                            <td>U001</td>
+                                            <td>
+                                              haura
+                                            </td>
+                                            <td>
+                                              Tiket Pesawat
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Wallet</p>
+                                                <p class="text-bold text-success">+Rp 100.000</p>
+                                              </div>
+                                            </td>
+                                            <td class="text-primary">Ewallet</td>
+                                            <td class="nonpadding">
+                                              <button
+                                                class="btn-refund w90 pointer"
+                                              >
+                                                Menunggu
+                                              </button>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div
+                                                class="d-flex justify-content-around"
+                                              >
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-eye.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalSee"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-pen.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalCreate"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-edit.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTele"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-trash.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTrash"
+                                                />
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade"
+                                    id="pills-b3"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-b3-tab"
+                                  >
+                                    <div class="table-responsive">
+                                      <table
+                                        class="row-border"
+                                        id="example-style-8"
+                                      >
+                                        <!-- Button trigger modal -->
+                                        <button
+                                          type="button"
+                                          class="btn btn-add absolute-right"
+                                          data-toggle="modal"
+                                          data-target="#modalAdd"
+                                        >
+                                          Add Transaction
+                                        </button>
+                                        <h5 class="mb-5">Lowongan Kerja</h5>
+                                        <thead>
+                                          <tr>
+                                            <th>No</th>
+                                            <th>Trans ID</th>
+                                            <th>Date Transaction</th>
+                                            <th>Userid</th>
+                                            <th>Username</th>
+                                            <th>Transaksi Pembayaran</th>
+                                            <th>Transaksi</th>
+                                            <th>Rekening Penerima</th>
+                                            <th>Status</th>
+                                            <th>action</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>W001</td>
+                                            <td>01/13/2020</td>
+                                            <td>U001</td>
+                                            <td>
+                                              haura
+                                            </td>
+                                            <td>
+                                              Tiket Pesawat
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Wallet</p>
+                                                <p class="text-bold text-success">+Rp 100.000</p>
+                                              </div>
+                                            </td>
+                                            <td class="text-primary">Ewallet</td>
+                                            <td class="nonpadding">
+                                              <button
+                                                class="btn-opened w90 pointer"
+                                              >
+                                                Berhasil
+                                              </button>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div
+                                                class="d-flex justify-content-around"
+                                              >
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-eye.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalSee"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-pen.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalCreate"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-edit.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTele"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-trash.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTrash"
+                                                />
+                                              </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>W001</td>
+                                            <td>01/13/2020</td>
+                                            <td>U001</td>
+                                            <td>
+                                              haura
+                                            </td>
+                                            <td>
+                                              Tiket Pesawat
+                                            </td>
+                                            <td>
+                                              <div class="d-flex flex-column">
+                                                <p class="mb-2">Wallet</p>
+                                                <p class="text-bold text-success">+Rp 100.000</p>
+                                              </div>
+                                            </td>
+                                            <td class="text-primary">Ewallet</td>
+                                            <td class="nonpadding">
+                                              <button
+                                                class="btn-refund w90 pointer"
+                                              >
+                                                Menunggu
+                                              </button>
+                                            </td>
+                                            <td class="nonpadding">
+                                              <div
+                                                class="d-flex justify-content-around"
+                                              >
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-eye.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalSee"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-pen.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalCreate"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-edit.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTele"
+                                                />
+                                                <img
+                                                  class="pointer px-1"
+                                                  src="assets/media/icon-trash.png"
+                                                  alt=""
+                                                  data-toggle="modal"
+                                                  data-target="#modalTrash"
+                                                />
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade"
+                                    id="pills-b4"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-b4-tab"
+                                  >
+                                  <div class="table-responsive">
+                                    <table
+                                      class="row-border"
+                                      id="example-style-9"
+                                    >
+                                      <!-- Button trigger modal -->
+                                      <button
+                                        type="button"
+                                        class="btn btn-add absolute-right"
+                                        data-toggle="modal"
+                                        data-target="#modalAdd"
+                                      >
+                                        Add Transaction
+                                      </button>
+                                      <h5 class="mb-5">Lowongan Kerja</h5>
+                                      <thead>
+                                        <tr>
+                                          <th>No</th>
+                                          <th>Trans ID</th>
+                                          <th>Date Transaction</th>
+                                          <th>Transaksi Produk</th>
+                                          <th>Jenis Transaksi</th>
+                                          <th>Nama Bank Pengirim</th>
+                                          <th>Total</th>
+                                          <th>Keterangan</th>
+                                          <th>Status</th>
+                                          <th>action</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>1</td>
+                                          <td>W001</td>
+                                          <td>01/13/2020</td>
+                                          <td>Deposit</td>
+                                          <td>
+                                            Deposit
+                                          </td>
+                                          <td>
+                                            Transfer
+                                          </td>
+                                          <td>
+                                            <div class="d-flex flex-column">
+                                              <p class="mb-2">Kredit</p>
+                                              <p class="text-bold text-success">Rp 2.000.000</p>
+                                            </div>
+                                          </td>
+                                          <td>Lorem Ipsum</td>
+                                          <td class="nonpadding">
+                                            <button
+                                              class="btn-opened w90 pointer"
+                                            >
+                                              Berhasil
+                                            </button>
+                                          </td>
+                                          <td class="nonpadding">
+                                            <div
+                                              class="d-flex justify-content-around"
+                                            >
+                                              <img
+                                                class="pointer px-1"
+                                                src="assets/media/icon-eye.png"
+                                                alt=""
+                                                data-toggle="modal"
+                                                data-target="#modalSee"
+                                              />
+                                              <img
+                                                class="pointer px-1"
+                                                src="assets/media/icon-pen.png"
+                                                alt=""
+                                                data-toggle="modal"
+                                                data-target="#modalCreate"
+                                              />
+                                              <img
+                                                class="pointer px-1"
+                                                src="assets/media/icon-trash.png"
+                                                alt=""
+                                                data-toggle="modal"
+                                                data-target="#modalTrash"
+                                              />
+                                            </div>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>1</td>
+                                          <td>W001</td>
+                                          <td>01/13/2020</td>
+                                          <td>Deposit</td>
+                                          <td>
+                                            Deposit
+                                          </td>
+                                          <td>
+                                            Transfer
+                                          </td>
+                                          <td>
+                                            <div class="d-flex flex-column">
+                                              <p class="mb-2">Kredit</p>
+                                              <p class="text-bold text-success">Rp 2.000.000</p>
+                                            </div>
+                                          </td>
+                                          <td>Lorem Ipsum</td>
+                                          <td class="nonpadding">
+                                            <button
+                                              class="btn-opened w90 pointer"
+                                            >
+                                              Berhasil
+                                            </button>
+                                          </td>
+                                          <td class="nonpadding">
+                                            <div
+                                              class="d-flex justify-content-around"
+                                            >
+                                              <img
+                                                class="pointer px-1"
+                                                src="assets/media/icon-eye.png"
+                                                alt=""
+                                                data-toggle="modal"
+                                                data-target="#modalSee"
+                                              />
+                                              <img
+                                                class="pointer px-1"
+                                                src="assets/media/icon-pen.png"
+                                                alt=""
+                                                data-toggle="modal"
+                                                data-target="#modalCreate"
+                                              />
+                                              <img
+                                                class="pointer px-1"
+                                                src="assets/media/icon-trash.png"
+                                                alt=""
+                                                data-toggle="modal"
+                                                data-target="#modalTrash"
+                                              />
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  </div>
+                                  <div
+                                    class="tab-pane fade"
+                                    id="pills-b5"
+                                    role="tabpanel"
+                                    aria-labelledby="pills-b5-tab"
                                   >
                                     <div class="table-responsive">
                                       <table
