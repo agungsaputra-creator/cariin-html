@@ -217,6 +217,17 @@ $(document).ready(function() {
     $('#example-style-14').DataTable();
     $('#example-style-15').DataTable();
     $('#example-style-16').DataTable();
+    $('#example-style-17').DataTable();
+    $('#example-style-18').DataTable();
+    $('#example-style-19').DataTable();
+    $('#example-style-20').DataTable();
+    $('#example-style-21').DataTable();
+    $('#example-style-22').DataTable();
+    $('#example-style-23').DataTable();
+    $('#example-style-24').DataTable();
+    $('#example-style-25').DataTable();
+    $('#example-style-26').DataTable();
+    $('#example-style-27').DataTable();
     // Data sources tables
     $('#data-source-1').DataTable();
     $('#data-source-2').DataTable({

@@ -352,7 +352,42 @@ a:hover {
   padding: unset !important;
   height: 24px !important;
 }
-
+.btn-reject-border{
+  width: 100%;
+  padding: 12px 0;
+  background: #FFFFFF;
+  border: 1px solid #FA674A;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #FA674A;
+  cursor: pointer;
+}
+.btn-reject-border:hover{
+  background: #ffab9a;
+  color: #fff;
+}
+.btn-reject-accept{
+  width: 100%;
+  padding: 12px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  background: #28B564;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+.btn-reject-accept:hover{
+  background: #4ed086;
+  color: #fff;
+}
 .btn-close {
   background: rgba(162, 175, 255, 0.1) !important;
   border-radius: 12px !important;
