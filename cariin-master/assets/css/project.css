@@ -32,6 +32,9 @@ a:hover {
 .w70 {
   width: 70% !important;
 }
+.w10{
+  width: 10% !important;
+}
 
 .mb50 {
   margin-bottom: 50px;
