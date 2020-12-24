@@ -228,6 +228,7 @@ $(document).ready(function() {
     $('#example-style-25').DataTable();
     $('#example-style-26').DataTable();
     $('#example-style-27').DataTable();
+    $('#example-style-28').DataTable();
     // Data sources tables
     $('#data-source-1').DataTable();
     $('#data-source-2').DataTable({
